@@ -13,4 +13,5 @@ All of the code used to create the list of URL feeds is located within the `nitt
 - Replace `handles.txt` with the name of the plaintext file in which the handles are located.
 - Replace `\n` with the delimiter that will split the handles into a list. By default, the script will split the handles based on newlines.
 - Replace `20` with the number of handles that each URL will contain. The page will fail to load if there are too many handles in one URL, so it may be necessary to run the script with different numbers to receive a list of URLs that all work correctly.
+
 After it runs, the script will print a list of URLs based on the preferences provided in the function call.
