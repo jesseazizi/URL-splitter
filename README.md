@@ -6,7 +6,7 @@ For context, [Nitter](https://github.com/zedeus/nitter) is an alternative, light
 
 This is where nitter-splitter comes in. Using Python, I've created a script that, when provided with a list of handles, will automatically create a set of URLs that can be browsed individually without fear of the page failing to load due to an overabundance of characters. The only requirement is that the user must provide a plaintext list of all the handles they wish to keep track of themselves.
 
-Unfortunately, the volatile state of X/Twitter's API and general website design means that browsing feeds through Nitter is not guaranteed to work on every instance which hosts Nitter. The [list of instances](https://github.com/zedeus/nitter/wiki/Instances) on Nitter's GitHub wiki can be used to locate up-to-date instances that nitter-splitter can be used in conjunction with.
+Unfortunately, the volatile state of X/Twitter's API and general website design means that browsing feeds through Nitter is not guaranteed to work on every instance which hosts it. The [list of instances](https://github.com/zedeus/nitter/wiki/Instances) on Nitter's GitHub wiki can be used to locate up-to-date instances that nitter-splitter can be used in conjunction with.
 
 ## Usage
 All of the code used to create the list of URL feeds is located within the `nitter_splitter` function. It is recommended that you edit the function call within the `main` function to tailor the script to your preference:
